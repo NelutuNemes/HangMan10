@@ -110,7 +110,6 @@ function fetch_data_from_api(apiUrl) {
             console.log(data[0]);
             console.log(random_generated_word);
 
-
             let unknown_letters = document.getElementsByClassName("unknown");
             console.log(unknown_letters);
 
@@ -122,7 +121,6 @@ function fetch_data_from_api(apiUrl) {
             let hintSpan = document.createElement("span");
             hintSpan.innerText = hint_letters[(Math.floor(Math.random() * hint_letters.length))];
             hint_for_user.appendChild(hintSpan);
-
 
         })
         .catch(error => {
@@ -578,7 +576,6 @@ class ThemeManager {
           this.keyboardName1.style.color = "";
           this.footerContainer.style.color = "";
 
-  
         // Actualizează tema curentă
         this.currentTheme = selectedTheme;
   

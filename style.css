@@ -260,6 +260,8 @@ main {
     font-size: 2vw;
     font-weight: bolder;
     color: white;
+    border-bottom: solid 2px black;
+    margin-right: 3px;
 }
 
 /* Stilizare culoare litera pentru alegere corectă */
@@ -805,8 +807,5 @@ select {
     }
 }
 #first-section {
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
-    color: transparent;
     user-select: none; /* Dezactivează selecția textului */
-  }
-  
+}
