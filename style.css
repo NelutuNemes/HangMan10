@@ -807,5 +807,5 @@ select {
     }
 }
 #first-section {
-    user-select: none; /* Dezactivează selecția textului */
+    user-select: none;
 }
