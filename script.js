@@ -389,7 +389,7 @@ navbar.addEventListener("mouseenter", function () {
 navbar.addEventListener("mouseleave", function () {
     setTimeout(function () {
         navbar.style.display = "none"; // Ascunde bara de navigare
-    }, 2000);
+    }, 4000);
 });
 
 
